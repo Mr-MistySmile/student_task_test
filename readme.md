@@ -1,1 +1,1 @@
-- **[Заходите в мой инст;)](https://www.instagram.com/mr.misty_smile//)**
+- **[Заходите в мой инст;)](https://www.instagram.com/mr.misty_smile)**
