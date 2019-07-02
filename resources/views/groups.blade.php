@@ -1,0 +1,1 @@
+{{$groups->first()->title}}
