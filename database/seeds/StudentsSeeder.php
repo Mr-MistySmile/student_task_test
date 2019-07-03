@@ -4,7 +4,7 @@ use Illuminate\Database\Seeder;
 use App\Students;
 use App\Groups;
 
-class StudentSeeder extends Seeder
+class StudentsSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -14,9 +14,9 @@ class StudentSeeder extends Seeder
     public function run()
     {
         $count = 50;
-        for ($i=0; i< $count; $i++){
+        for ($i=0; $i< $count; $i++){
 
-            factory(Student::class)->create([
+            factory(Students::class)->create([
                 'group_id'=> $this->random_group()
             ]);
         }
