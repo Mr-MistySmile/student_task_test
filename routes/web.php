@@ -16,4 +16,4 @@
 // });
 
 Route::get('/','GroupsController@index')->name('groups.index');
-//Route::get('/sudents','GroupsController@index')->name('groups.index');
+Route::get('/students','StudentsController@index')->name('students.index');
