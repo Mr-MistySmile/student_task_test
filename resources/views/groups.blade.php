@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
-    <table border = "3">
+    <table class= "table table-sm">
         <thead>
             <th> Название </th>
             <th> Описание</th>
@@ -26,7 +26,7 @@
                         <td><div class="body">{{$group->average_math}} </div> </td>
                         <td><div class="body">{{$group->average_rus}} </div> </td>
                         <td><div class="body">{{$group->average_eng}} </div> </td>
-                        <td><div class="body">{{'0'}} </div> </td>
+                        <td><div class="body">{{$group->average_mark}} </div> </td>
                 </tr>
                 @endforeach
             </tr>
