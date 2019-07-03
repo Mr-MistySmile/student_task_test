@@ -16,7 +16,10 @@ class CreateGroupsTable extends Migration
         Schema::create('groups', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('title');
-            $table->string('description');  
+            $table->string('description');
+            $table->double('average_math')->nullable()->default(0);
+            $table->double('average_rus')->nullable()->default(0);
+            $table->double('average_eng')->nullable()->default(0);
             $table->timestamps();
         });
     }
