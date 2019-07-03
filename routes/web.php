@@ -11,8 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
-Route::get('groups','GroupsController@index')->name('groups.index');
+Route::get('/','GroupsController@index')->name('groups.index');
+//Route::get('/sudents','GroupsController@index')->name('groups.index');
