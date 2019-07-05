@@ -31,7 +31,7 @@
                   </div>
                   <div>
                       <label for="disabledTextInput">Номер телефона куратора</label>
-                      <input type="text" value="{{$group->average_rus}}" placeholder="{{$group->average_eng}}" name="average_eng">
+                      <input type="text" value="{{$group->average_eng}}" placeholder="{{$group->average_eng}}" name="average_eng">
                     </div>
             <div class="input-group-prepend">
               <span class="input-group-text">Принять изменения</span>
