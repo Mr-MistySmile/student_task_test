@@ -9,11 +9,13 @@ use App\Students;
 $factory->define(Groups::class, function (Faker $faker) {
     $faker = \Faker\Factory::create('ru_RU');
     return [
-        'title' => $faker->unique()->city,
-        'description' => $faker->unique()->word,
-        'average_math' => rand(2, 5),
-        'average_rus' => rand(2, 5),
-        'average_eng' => rand(2, 5),
+
+        'title' => rand(1, 50),
+        'description' =>$faker->unique()->city,
+        'average_math' =>$faker->unique()->word,
+        'average_rus' => $faker->unique()->name,
+        'average_eng' =>$faker->unique()->e164PhoneNumber
+
         //'average_mark' => (('average_math'+'average_rus'+'average_eng')/3)
     ];
 });

@@ -14,13 +14,25 @@
           <td width="400">
             <div>
               <div>
-                <label for="disabledTextInput">Название группы</label>
+                <label for="disabledTextInput">Номер группы</label>
                 <input type="text" value="{{$group->title}}" placeholder="{{$group->title}}" name="title">
               </div>
               <div>
-                <label for="disabledTextInput">Описание группы</label>
+                <label for="disabledTextInput">Название</label>
                 <input type="text" value="{{$group->description}}" placeholder="{{$group->description}}" name="description">
               </div>
+              <div>
+                  <label for="disabledTextInput">Описание группы</label>
+                  <input type="text" value="{{$group->average_math}}" placeholder="{{$group->average_math}}" name="average_math">
+                </div>
+                <div>
+                    <label for="disabledTextInput">Куратор</label>
+                    <input type="text" value="{{$group->average_rus}}" placeholder="{{$group->average_rus}}" name="average_rus">
+                  </div>
+                  <div>
+                      <label for="disabledTextInput">Номер телефона куратора</label>
+                      <input type="text" value="{{$group->average_rus}}" placeholder="{{$group->average_eng}}" name="average_eng">
+                    </div>
             <div class="input-group-prepend">
               <span class="input-group-text">Принять изменения</span>
               <button class="btn btn-outline-info" type="submit">~</button></div>

@@ -1,13 +1,13 @@
 @extends ('_layout')
 
 @section ('content')
-    <table class="table table-sm">
+    <table class="table table-dark">
         <thead>
+            <th>Номер группы</th>
             <th>Название</th>
             <th>Описание</th>
-            <th>Оценка по русскому</th>
-            <th>Оценка по математике</th>
-            <th>Оценка по английскому</th>
+            <th>Куратор</th>
+            <th>Номер телефона куратора</th>
         </thead>
         <tbody>
             <tr>
