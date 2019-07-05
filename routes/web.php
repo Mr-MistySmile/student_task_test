@@ -11,9 +11,9 @@
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+ Route::get('/', function () {
+     return view('welcome');
+});
 
-Route::get('/','GroupsController@index')->name('groups.index');
+Route::resource('/groups', 'GroupsController' );
 Route::get('/students','StudentsController@index')->name('students.index');
