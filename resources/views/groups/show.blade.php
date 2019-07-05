@@ -34,8 +34,8 @@
                       <input type="text" value="{{$group->average_eng}}" placeholder="{{$group->average_eng}}" name="average_eng">
                     </div>
             <div class="input-group-prepend">
-              <span class="input-group-text">Принять изменения</span>
-              <button class="btn btn-outline-info" type="submit">~</button></div>
+             
+              <button class="btn btn-outline-info" type="submit">Принять изменения</button></div>
             </div>
           </td>
         </form>
