@@ -5,7 +5,11 @@ class Groups extends Model
 {
     protected $fillable = [
         'title',
-        'description'
+        'description',
+        'average_math',
+        'average_rus',
+        'average_eng'
+
     ];
     public function group()
     {
